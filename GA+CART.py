@@ -86,9 +86,7 @@ def selection(population, new_population):
 
 # mutação por complemento
 def mutation(population):
-    # array = []
     for i in range(len(population)):
-        # arrayAux = []
         for j in range(len(population[i].schema)):
             yes = np.random.randint(0, 100)
             if(yes <= MUTATION_RATE):
@@ -113,7 +111,7 @@ def crossOver(population):
             for downward in child:
                 NEW_POPULATION.append(Chromosome(downward))
 
-# Fitness - Falta configurar um algoritmo aqui
+# Fitness - 
 def decode(ind):
     resultado = []
     for i in ind:
