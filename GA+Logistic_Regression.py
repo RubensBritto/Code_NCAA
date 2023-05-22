@@ -49,7 +49,7 @@ def monstro(population):
 
 # AG
 def decisionTree(features):
-    data = pd.read_csv("D://Rubens_HD//UFAL//Mestrado//Codes//output//newDataSet.csv")
+    data = pd.read_csv("newDataSet.csv")
     X = data[features]
     y = data["ROUND"]
     X_train, X_test, y_train, y_test = train_test_split(
