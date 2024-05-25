@@ -913,6 +913,7 @@
             "penalty": "l1",
             "solver": "liblinear"
         },
+        "Features SubSet Name": "Embedded",
         "Best CV Score": 0.9914089725197714,
         "Test Score": 0.9916974169741697
     },
@@ -980,6 +981,7 @@
             "min_samples_split": 2,
             "splitter": "random"
         },
+        "Features SubSet Name": "Embedded",
         "Best CV Score": 0.9906786357243653,
         "Test Score": 0.991389913899139
     },
@@ -1047,6 +1049,7 @@
             "min_samples_split": 2,
             "splitter": "best"
         },
+        "Features SubSet Name": "Embedded",
         "Best CV Score": 0.9906209859155215,
         "Test Score": 0.9908517835178352
     }
